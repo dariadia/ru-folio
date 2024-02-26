@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'gatsby';
-import { Helmet } from 'react-helmet';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import React, { useState, useEffect } from 'react'
+import { Link } from 'gatsby'
+import { Helmet } from 'react-helmet'
+import { CSSTransition, TransitionGroup } from 'react-transition-group'
 
-import styled from 'styled-components';
-import { NAV_DELAY } from '@constants';
-import { Layout } from '@components';
-import { usePrefersReducedMotion } from '@hooks';
+import styled from 'styled-components'
+import { NAV_DELAY } from '@constants'
+import { Layout } from '@components'
+import { usePrefersReducedMotion } from '@hooks'
 
 const StyledMainContainer = styled.main`
   ${({ theme }) => theme.mixins.flexCentered};
@@ -40,14 +40,14 @@ const NotFoundPage = ({ location }) => {
   const content = (
     <StyledMainContainer className="fillHeight">
       <StyledTitle>404</StyledTitle>
-      <StyledSubtitle>Page Not Found</StyledSubtitle>
-      <StyledHomeButton to="/">Return Home</StyledHomeButton>
+      <StyledSubtitle>Страница не найдена</StyledSubtitle>
+      <StyledHomeButton to="/">Вернуться на главную</StyledHomeButton>
     </StyledMainContainer>
   );
 
   return (
     <Layout location={location}>
-      <Helmet title="404: Page Not Found" />
+      <Helmet title="404: Страница не найдена" />
       {prefersReducedMotion ? (
         <>{content}</>
       ) : (
@@ -60,7 +60,7 @@ const NotFoundPage = ({ location }) => {
         </TransitionGroup>
       )}
     </Layout>
-  );
-};
+  )
+}
 
-export default NotFoundPage;
+export default NotFoundPage

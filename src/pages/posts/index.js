@@ -144,9 +144,9 @@ const PostsPage = ({ location, data }) => {
       <Helmet title="Posts" />
       <StyledMainContainer>
         <header>
-          <h1 className="heading-main">Blog Posts</h1>
+          <h1 className="heading-main">Блог</h1>
           <p className="subtitle">
-            a collection of coding articles
+            коллекция статей по программированию
           </p>
         </header>
         <StyledGrid>
