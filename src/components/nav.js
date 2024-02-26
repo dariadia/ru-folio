@@ -148,7 +148,7 @@ const Nav = ({ isHome }) => {
 
   const ResumeLink = (
     <a className="resume-button" href="/Daria_Diachkova_-_Senior_Frontend_Engineer.pdf" target="_blank" rel="noopener noreferrer">
-      Resume
+      Резюме
     </a>
   );
 

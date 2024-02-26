@@ -76,11 +76,11 @@ const Footer = () => {
       </StyledSocialLinks>
       <StyledCredit tabindex="-1">
         <a href="https://github.com/dariadia/portfolio">
-          <div>by Daria V. Diachkova</div>
+          <div>создано Дьячковой Дашей</div>
         </a>
         {totalCount && (
           <div className="github-stats">
-            Github commits for the past year: {totalCount.toLocaleString()}
+            Мои Github коммиты за последний год: {totalCount.toLocaleString()}
           </div>
         )}
       </StyledCredit>

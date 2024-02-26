@@ -7,7 +7,7 @@ const Icon = ({ name }) => {
     case 'Codepen':
       return <i className="fa-brands fa-codepen" />;
     case 'External':
-      return <span className="fa-link-to">Link to project</span>;
+      return <span className="fa-link-to">Ссылка на проект</span>;
     case 'Folder':
       return <i className="fa-regular fa-folder-bookmark" />;
     case 'GitHub':
@@ -19,9 +19,9 @@ const Icon = ({ name }) => {
     case 'Telegram':
       return <i className="fa-brands fa-telegram" />;
     case 'Post':
-      return <span className="fa-link-to">Link to post</span>;
+      return <span className="fa-link-to">Ссылка на пост</span>;
     default:
-      return <span className="fa-link-to">Live</span>;
+      return <span className="fa-link-to">Ссылка</span>;
   }
 }
 

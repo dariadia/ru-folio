@@ -42,9 +42,9 @@ const TagsPage = ({
     <StyledTagsContainer>
       <span className="breadcrumb">
         <span className="arrow">&larr;</span>
-        <Link to="/posts">All posts</Link>
+        <Link to="/posts">Все посты</Link>
       </span>
-      <h1>Tags</h1>
+      <h1>Тэги</h1>
       <ul className="list-styled">
         {group.map(tag => (
           <li key={tag.fieldValue}>

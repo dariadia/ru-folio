@@ -189,11 +189,8 @@ const Menu = () => {
           e.preventDefault();
           break;
         }
-        if (e.shiftKey) {
-          handleBackwardTab(e);
-        } else {
-          handleForwardTab(e);
-        }
+        if (e.shiftKey) handleBackwardTab(e);
+        else handleForwardTab(e);
         break;
       }
 
