@@ -1,7 +1,7 @@
 ---
 date: '2021'
 sortBy: 1
-title: 'Design System'
+title: 'NPM: модульная библиотека компонентов'
 cover: './sample.png'
 github: 'https://github.com/dariadia/daria-s-design-system'
 url: 'https://daria-s-design-system.vercel.app/'
@@ -11,8 +11,8 @@ tags:
 - npm package
 ---
 
-[NPM Package](https://www.npmjs.com/package/daria-s-design-system). This is a modular component library. Simple. Accessible. And gives you the building blocks to build your own React applications.
+[NPM пакет](https://www.npmjs.com/package/daria-s-design-system). Это модульная библиотека компонентов. Просто. Доступно. Пакет дает пользователю-разработчику "строительные блоки" для создания собственных приложений React.
 
-A <b>design system</b> is: a collection of reusable components with clear standards that can be assembled together to build any number of applications. Such a system enables teams to build: better products faster.
+<b>Модульная библиотека компонентов</b> — это набор переиспользуемых компонентов с четкими стандартами, которые можно использовать для создания любого количества приложений. Такая система позволяет командам быстрее создавать более качественные продукты.
 
-<small>The system's components follow the Web Content Accessibility Guidelines (WCAG), which means the app caters for all users.</small>
+<small>Компоненты системы соответствуют Руководству по обеспечению доступности веб-контента (WCAG), что означает, что приложение подходит для всех пользователей, включая людей с ограниченными возможностями и проблемами со зрением.</small>

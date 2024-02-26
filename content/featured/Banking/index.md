@@ -1,7 +1,7 @@
 ---
 date: '2023'
 sortBy: 3
-title: 'Banking dashboard'
+title: 'Банковский кабинет'
 cover: './banking.png'
 url: 'https://kanban-dariadia.vercel.app/banking'
 slug: 'https://kanban-dariadia.vercel.app/banking'
@@ -14,12 +14,12 @@ company_url: https://github.com/dariadia/
 type: 'project'
 ---
 
-An educational project for one of my mentees, this is a sample banking dashboard. **One can: add, edit, and delete transactions.** The info box above recalculates the totals after any transaction is moved to another status. 
+Образовательный проект для одного из моих учеников (так сказать, наглядное пособие). Это пример банковского дашборда. **Можно: добавлять, редактировать и удалять транзакции.** В информационном окне суммы пересчитываются после перевода любой транзакции в другой статус.
 
-_This app was built for purely educational purposes_. First, to teach my mentee about implementing the drag and drop mechanic. Second, to cater for their immediate needs.
+_Это приложение было создано исключительно для образовательных целей_. Во-первых, научить моего ученика реализации механики Drag'n drop. Во-вторых, для его конкретной цели, необходимой в его текущей работе.
 
 <br />
 
 <small>
-My mentee works for as a backend developer for a company with no visual dashboard to monitor their transactions. The app needed to be as simple as possible to show the managers the total counts and the overall situation. Simple and available at a glance.
+Мой подопечный работает серверным разработчиком в компании, у которой нет визуальной панели мониторинга транзакций. Приложение должно быть максимально простым, чтобы показывать менеджерам общие итоги и общую ситуацию. Целью было создание самого простого возможного функционала.
 </small>
