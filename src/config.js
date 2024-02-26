@@ -21,27 +21,27 @@ module.exports = {
 
   navLinks: [
     {
-      name: 'About',
+      name: 'Обо мне',
       url: '/#about',
     },
     {
-      name: 'Experience',
+      name: 'Опыт работы',
       url: '/#jobs',
     },
     {
-      name: 'Projects',
+      name: 'Проекты',
       url: '/#projects',
     },
     {
-      name: 'Posts',
+      name: 'Мой блог',
       url: '/#posts',
     },
     {
-      name: 'Recommendations',
+      name: 'Другие обо мне',
       url: '/#recommendations'
     },
     {
-      name: 'Contact',
+      name: 'Контакты',
       url: '/#contact',
     },
   ],

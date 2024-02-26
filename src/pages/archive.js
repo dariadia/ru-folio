@@ -140,23 +140,21 @@ const ArchivePage = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Helmet title="Archive" />
-
+      <Helmet title="Архив" />
       <main>
         <header ref={revealTitle}>
-          <h1 className="heading-main">Archive</h1>
-          <p className="subtitle">A big list of things I’ve worked on</p>
+          <h1 className="heading-main">Архив</h1>
+          <p className="subtitle">Проекты, над которыми я работала</p>
         </header>
-
         <StyledTableContainer ref={revealTable}>
           <table>
             <thead>
               <tr>
-                <th>Year</th>
-                <th>Title</th>
-                <th className="hide-on-mobile">Made at</th>
-                <th className="hide-on-mobile">Built with</th>
-                <th>Link</th>
+                <th>Год</th>
+                <th>Название</th>
+                <th className="hide-on-mobile">Где</th>
+                <th className="hide-on-mobile">Стэк</th>
+                <th>Ссылка</th>
               </tr>
             </thead>
             <tbody>

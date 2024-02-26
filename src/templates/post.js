@@ -62,7 +62,7 @@ const PostTemplate = ({ data, location }) => {
           <h1 className="medium-heading">{title}</h1>
           <p className="subtitle">
             <time>
-              {new Date(date).toLocaleDateString('en-US', {
+              {new Date(date).toLocaleDateString('ru-RU', {
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric',
