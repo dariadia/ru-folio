@@ -12,8 +12,6 @@ tags:
   - multi-language (i18n)
 ---
 
-A sample landing page on reading statics of a e-library service. Shows the latest reading trends across the globe as well as some personal statistics for the user.
+Пример лендинга по статистике чтения электронно-библиотечного сервиса. Показывает последние тенденции чтения по всему миру, а также некоторую личную статистику пользователя.
 
-If you're logged out, you can only see the general service statistics. Log in via an icon in the top left corner to see personalised data*. 
-
-<small>*For simplicity purposes, this data is a mock for all users.</small>
+Если вы вышли из своего аккаунта, то можете видеть только общую статистику сервиса. Войдите в аккаунт с помощью значка в верхнем левом углу, чтобы увидеть персональные данные*.

@@ -1,7 +1,7 @@
 ---
 date: '2023'
 sortBy: 2
-title: 'Kanban board'
+title: 'Канбан-доска'
 cover: './kanban.png'
 url: 'https://kanban-sooty-nine.vercel.app/'
 slug: 'https://kanban-sooty-nine.vercel.app/'
@@ -14,4 +14,4 @@ company_url: https://github.com/dariadia/
 type: 'project'
 ---
 
-A simple Kanban board, in this app, one can **add, edit, delete tasks and columns**, and drag and drop tasks between the columns. 
+Простая канбан-доска. В этом приложении можно **добавлять, редактировать, удалять задачи и столбцы**, а также перетаскивать задачи между столбцами.
