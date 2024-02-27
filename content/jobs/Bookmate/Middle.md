@@ -12,14 +12,14 @@ tags:
   - Redux
 ---
 
-- Write modern, maintainable code for a diverse array of <b>client and internal</b> projects
-- <b>User experience</b>: <i>collaborate with designers</i> to create user-friendly and intuitive interfaces. Ensure a seamless and engaging user experience by implementing smooth transitions, animations, and interactive elements.
-- <b>Testing and debugging</b>: perform thorough testing and debugging to identify and resolve frontend issues, ensuring a bug-free and reliable user experience. Utilize debugging tools and techniques to troubleshoot and optimize code.
-- <b>Documentation and version control</b>: maintain documentation of code, features, and technical specifications. Utilize version control systems (<b>git</b>) to manage code repositories, branches, and code reviews effectively.
+- Код: писала современный и удобный в поддержании код для <b>внутренних и продуктовых</b> проектов компании.
+– <b>Удобство UX</b>: <i>сотрудничала с дизайнерами</i> для создания удобных и интуитивно понятных интерфейсов, которые бы обеспечивали положительный пользовательский опыт (плавные переходы, анимация и интерактивные элементы).
+- <b>Тестирование и отладка</b>: проводила тщательное тестирование и отладку для выявления и устранения проблем интерфейса, обеспечивая безошибочное и надежное взаимодействие с пользователем. Использовала инструменты и методы отладки для устранения неполадок и оптимизации кода.
+– <b>Документация и контроль версий</b>: вела документацию. Использовала системы контроля версий (<b>git</b>) для эффективного управления репозиториями.
 
 <br/>
 
-### Some stats
+### Немного статистики
 
-- Upped internal projects' test coverage by <b>15%</b>.
-- Introduced technical documentation to the frontend team. Covered 60% of the main product (website).
+– Увеличила покрытие проекта тестами на <b>15%</b>.
+- Внедрила техническую документацию во фронтенд-команде. В ней описала до 60% ключевого продукта (сайта).
