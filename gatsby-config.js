@@ -2,10 +2,10 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Daria V. Diachkova - Senior Frontend Engineer and small team Frontend Lead',
+    title: 'Дьячкова Даша - старший фронтенд разработчик, ментор.',
     description:
-      'UX and inclusivity-focused Senior Frontend Engineer and small team Frontend Lead (≤5 team members) with 5+ years of experience in React, Node.js and TypeScript.',
-    siteUrl: 'https://dariadia-portfolio.vercel.app/',
+      'Я специализируюсь на UX и инклюзивности веб-приложений и сайтов. Старший фронтенд разработчик и руководитель небольшой фронтенд команды (менее 6 человек) с более чем 5-летним опытом работы в React, Node.js и TypeScript.',
+    siteUrl: 'https://dariadia-portfolio-ru.vercel.app/',
     image: '/og.png',
   },
   plugins: [
