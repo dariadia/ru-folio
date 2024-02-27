@@ -149,13 +149,13 @@ const About = () => {
             Привет! Меня зовут Даша.
           </p>
           <p>
-            <b><span className='accent'>UX and inclusivity-focused</span></b> Senior Frontend Engineer and small team Frontend Lead (≤5 team members) with 5+ years of experience in <b>React, Node.js and TypeScript</b>.
+            Я специализируюсь на<b><span className='accent'> UX и инклюзивности</span></b> веб-приложений и сайтов. Старший фронтенд разработчик и руководитель небольшой фронтенд команды (менее 6 человек) с более чем 5-летним опытом работы в <b>React, Node.js и TypeScript.</b>.
           </p>
           <p>
-            My communication skills allow me to efficiently collaborate with development & design teams, as well as taking on mentoring duties.
+          Мои коммуникативные навыки позволяют мне эффективно работать с командами разработчиков и дизайнеров, а также брать на себя обязанности наставничества.
           </p>
           <p>
-            Dedicated and enthusiastic, I am a lifelong learner whose heart belongs equally to books (reading and also writing my own fiction!) and the great outdoors (a 37km hike is a breeze).
+            Я из тех, кто учится всю жизнь. Люблю узнавать новое и осваивать навыки. В свободное время я охотно читаю, пишу романы, вяжу и рисую.
           </p>
           <br />
         </div>
@@ -177,7 +177,7 @@ const About = () => {
           {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
         </ul>
         <ul className="languages-list">
-          <li><b>Natively</b>:
+          <li><b>Родные</b>:
           {' '}<StaticImage
               className="img flag-icon"
               src="../../assets/icons/gb.svg"
@@ -199,7 +199,7 @@ const About = () => {
               alt="Russian flag"
             />
           </li>
-          <li><b>Fluent</b>:
+          <li><b>Бегло разговариваю на</b>:
           {' '}<StaticImage
               className="img flag-icon"
               src="../../assets/icons/rs.svg"
@@ -215,7 +215,7 @@ const About = () => {
               alt="Croatian flag"
             />
           </li>
-          <li><b>Currently learning</b>:
+          <li><b>Сейчас я учу</b>:
           {' '}<StaticImage
               className="img flag-icon"
               src="../../assets/icons/fr.svg"
