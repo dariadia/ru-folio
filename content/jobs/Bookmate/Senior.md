@@ -4,7 +4,7 @@ title: 'Старший фронтенд разработчик'
 company: 'Bookmate'
 location: 'Москва'
 range: 'January 2022 - August 2022'
-year: 2022
+year: 2023
 slug: senior-dev
 url: 'https://www.bookmate.com/'
 tags:
