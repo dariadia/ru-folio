@@ -13,4 +13,4 @@ tags:
 type: 'project'
 ---
 
-Build your own avatar and save it as an image. Pure <b>CSS</b> art, no sprites. 
+Создайте свой собственный аватар и сохраните его как изображение. Чистый <b>CSS</b> арт, без спрайтов.
