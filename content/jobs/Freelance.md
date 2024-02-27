@@ -4,7 +4,7 @@ title: 'Старший фронтенд разработчик'
 company: 'Freelance'
 location: 'Remote'
 range: 'January 2024 – February 2024'
-year: 2022
+year: 2024
 slug: freelance-dev
 tags:
   - React
