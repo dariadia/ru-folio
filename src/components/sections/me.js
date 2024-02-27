@@ -50,7 +50,7 @@ const Me = () => {
   const introItems = [
     <h1 className="heading-caption">Привет, меня зовут</h1>,
     <h2 className="heading-main">Дьячкова Даша</h2>,
-    <h3 className="subheading-main">Я создаю сайты и приложения для веба.</h3>,
+    <h3 className="subheading-main">Я создаю сайты и веб-приложения.</h3>,
   ]
 
   return (
