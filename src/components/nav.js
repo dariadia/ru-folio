@@ -159,6 +159,7 @@ const Nav = ({ isHome }) => {
           <>
             {Logo}
             <StyledLinks>
+              <a href='https://dariadia-portfolio.vercel.app/' target="_blank">In English</a>
               <ul>
                 {navLinks &&
                   navLinks.map(({ url, name }, i) => (
