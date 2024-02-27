@@ -12,16 +12,16 @@ tags:
   - Redux
 ---
 
-- <b>Team management</b>: provide <i>leadership, mentorship, and guidance</i> to the frontend development team. Foster a collaborative and inclusive team culture, encouraging creativity, innovation, and professional growth. Delegate tasks, set goals, and provide regular feedback to team members.
-- <b>Technical expertise</b>: bring my strong frontend development skills to the team, serving as a technical advisor and providing guidance on complex technical challenges while partaking in daily tasks as the <b>"player-coach"</b>
-- <b>Project planning and coordination</b>: collaborate with project managers and stakeholders to plan and prioritize frontend development tasks. <i>Break down projects into manageable tasks</i> and <i>allocate resources effectively</i>. Ensure that timelines are met and deliverables are of high quality.
-- <b>Collaboration with other teams</b>: work closely with backend developers, UI/UX designers, and other cross-functional teams to ensure seamless integration of frontend and backend systems. <i>Foster effective communication and collaboration</i> to align the frontend development efforts with overall project goals.
+– <b>Управление командой</b>: я – <i>лидер и наставник </i>команды фронтенд разработчиков. Развивала совместную и инклюзивную командную культуру, поощряя творчество, инновации и профессиональный рост. Делегировала задачи, ставила цели и регулярно предоставляла обратную связь членам команды.
+- <b>Технический опыт</b>: я привнесла в команду свои сильные навыки разработки, выступая в качестве технического консультанта и предоставляя рекомендации по сложным задачам, одновременно участвуя в повседневных задачах в качестве <b>"лидера-игрока"</b> (player coach). 
+- <b>Планирование и координация проекта</b>: сотрудничала с менеджерами проектов и заинтересованными сторонами для планирования и определения приоритетности задач разработки. <i>Разбивала проекты на управляемые задачи</i> и <i>эффективно распределяла ресурсы</i>. Обеспечивала соблюдение сроков и высокое качество результатов.
+- <b>Сотрудничество с другими командами</b>: тесно сотрудничала с бекенд разработчиками, дизайнерами UI/UX и другими межфункциональными командами, чтобы обеспечить плавную интеграцию интерфейсных и серверных систем. <i>Стимулировала эффективное общение и сотрудничество</i>, чтобы согласовать усилия по разработке внешнего интерфейса с общими целями проекта.
 
 <br/>
 
 ### Немного статистики
 
-- Raised and mentored: one junior to middle developer, one intern to junior developer. Two junior developers. 
-- Introduced <b>WCAG</b> principles (accessibility for all);
-- Improved <a href="https://bookmate.com/" target="_blank" style="color:#566eaf">bookmate.com</a> loading time by <b>153%</b>. Chunks refactoring, a combination of async/defer fetching and improved runtime for better UX.
-- Launched <b>two major game-changing features</b> for the product: a new async purchase mechanism, and an option to pay via Apple/Google Pay. (Before users could only manually enter their card details)
+- Наставничество: вырастила пять разработчиков до уровня миддл.
+- В продукты Букмейт были введены принципы <b>WCAG</b> (доступность для всех);
+– Время загрузки <a href="https://bookmate.com/" target="_blank" style="color:#566eaf">bookmate.com</a> сократилось почти вдвое. Такого результата я добилась через рефакторинг чанков, в сочетании асинхронной/отложенной загрузки ресурсов.
+– В продукте реализованы <b>две важные функции</b>: новый механизм асинхронных покупок и возможность оплаты через Apple/Google Pay. (Раньше пользователи могли только вручную вводить данные своей карты).
