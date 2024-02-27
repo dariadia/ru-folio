@@ -4,7 +4,7 @@ title: 'Ведущий фронтенд разработчик'
 company: 'Bookmate'
 location: 'Белград, Сербия'
 range: 'август 2022 - январь 2024'
-year: 2022
+year: 2023
 slug: lead-dev
 url: 'https://www.bookmate.com/'
 tags:
