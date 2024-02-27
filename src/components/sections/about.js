@@ -142,11 +142,11 @@ const About = () => {
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="subheading">About Me</h2>
+      <h2 className="subheading">Обо мне</h2>
       <div className="inner">
         <div>
           <p>
-            Hi! My name is Daria.
+            Привет! Меня зовут Даша.
           </p>
           <p>
             <b><span className='accent'>UX and inclusivity-focused</span></b> Senior Frontend Engineer and small team Frontend Lead (≤5 team members) with 5+ years of experience in <b>React, Node.js and TypeScript</b>.
@@ -167,7 +167,7 @@ const About = () => {
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
-              alt="Daria V. Diachkova, senior frontend engineer"
+              alt="Даша Дьячкова, старший фронтенд разработчик"
             />
           </div>
         </StyledPic>
