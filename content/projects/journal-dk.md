@@ -1,7 +1,7 @@
 ---
 date: '2021'
 sortBy: 4
-title: 'Bookmate Journal (literary journal) 🇩🇰'
+title: 'Bookmate Journal (литературный журнал) 🇩🇰'
 cover: './images/dk-journal-min.png'
 url: 'https://journal.bookmate.dk/'
 slug: 'https://journal.bookmate.dk/'
@@ -15,5 +15,4 @@ company_url: https://bookmate.com/
 type: 'project'
 ---
 
-"Bookmate Journal" is an online literary journal published for readers in Denmark. New items are added daily by the editorial team via Netlify CMS. All articles are then rendered on the web using the pre-set mechanics, which I've implemented via <b>JavaScript, SCSS, and Hugo</b>. 
-
+«Bookmate Journal» — литературный онлайн-журнал, издаваемый для читателей в Дании. Новые материалы добавляются ежедневно редакцией через Netlify CMS. Все статьи затем отображаются в Интернете с использованием предустановленной механики, которую я реализовала с помощью<b>JavaScript, SCSS, and Hugo</b>. 

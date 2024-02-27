@@ -14,6 +14,6 @@ company_url: https://github.com/dariadia/
 type: 'project'
 ---
 
-An RPG game about ghost-adventures in an old library. Runs on <b>JavaScript and canvas</b> technologies. 
+RPG о приключениях призраков в старой библиотеке. Работает на технологиях <b>JavaScript и Canvas</b>.
 
-User can explore the locations, talk to the NPC ghosts and solve the murder mystery before it's too late.
+Пользователь может исследовать локации, поговорить с NPC-призраками и разгадать тайны их убийства, пока не стало слишком поздно. Игрок должен собрать все подсказки и выбраться до утра, иначе погибнет, как и все призраки.

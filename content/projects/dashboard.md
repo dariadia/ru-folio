@@ -15,4 +15,4 @@ tags:
   - interactive graph
 ---
 
-An admin user-friendly dashboard. Includes interactive graphs (updated at a set timeout via RESTful API), customers' key data, transaction reports, and teams KPIs. Check out the navigation bar to see more tabs.
+Дашборд. Включает интерактивные графики (обновляемые через заданное время через RESTful API), ключевые данные клиентов, отчеты о транзакциях и ключевые показатели эффективности команд. Проверьте панель навигации, чтобы увидеть больше вкладок.
