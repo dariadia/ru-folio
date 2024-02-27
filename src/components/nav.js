@@ -160,7 +160,7 @@ const Nav = ({ isHome }) => {
             {Logo}
             <StyledLinks>
               <ul>
-                <li key="en-link"><a href='https://dariadia-portfolio.vercel.app/' target="_blank">In English</a></li>
+                <li key="en-link"><a href='https://dariadia-portfolio.vercel.app/' target="_blank" rel="noreferrer">In English</a></li>
                 {navLinks &&
                   navLinks.map(({ url, name }, i) => (
                     <li key={i}>
