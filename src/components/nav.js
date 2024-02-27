@@ -92,7 +92,7 @@ const StyledLinks = styled.div`
       font-size: var(--xs);
 
       a {
-        padding: 10px;
+        padding: 4px;
         &:hover {
           color: var(--highlight);
         }
