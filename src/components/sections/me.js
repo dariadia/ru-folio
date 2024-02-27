@@ -41,6 +41,7 @@ const StyledMeSection = styled.section`
   .heading-caption {
     font-family: var(--font-main);
     font-size: 18px;
+    margin: 0px 0px 14px 4px;
   }
 `;
 

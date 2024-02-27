@@ -1,8 +1,8 @@
 ---
 date: '2022-01-01'
-title: 'Senior Frontend Developer'
+title: 'Старший фронтенд разработчик'
 company: 'Bookmate'
-location: 'Dublin, Ireland'
+location: 'Москва'
 range: 'January 2022 - August 2022'
 year: 2022
 slug: senior-dev

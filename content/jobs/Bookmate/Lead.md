@@ -1,9 +1,9 @@
 ---
 date: '2022-08-01'
-title: 'Team Frontend Lead'
+title: 'Ведущий фронтенд разработчик'
 company: 'Bookmate'
-location: 'Dublin, Ireland'
-range: 'August 2022 - January 2024'
+location: 'Белград, Сербия'
+range: 'август 2022 - январь 2024'
 year: 2022
 slug: lead-dev
 url: 'https://www.bookmate.com/'

@@ -1,9 +1,9 @@
 ---
 date: '2020-02-25'
-title: 'Junior Frontend Developer'
-company: 'Bookmate'
-location: 'Dublin, Ireland'
-range: 'February 2020 - February 2021'
+title: 'Младший фронтенд разработчик'
+company: 'Букмейт'
+location: 'Москва'
+range: 'февраль 2020 - февраль 2021'
 year: 2020
 slug: junior-dev
 url: 'https://www.bookmate.com/'

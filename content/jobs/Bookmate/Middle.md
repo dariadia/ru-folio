@@ -1,9 +1,9 @@
 ---
 date: '2021-01-02'
-title: 'Middle Frontend Developer'
-company: 'Bookmate'
-location: 'Dublin, Ireland'
-range: 'February 2021 - January 2022'
+title: 'Фронтенд разработчик'
+company: 'Букмейт'
+location: 'Москва'
+range: 'февраль 2021 - январь 2022'
 year: 2021
 slug: middle-dev
 url: 'https://www.bookmate.com/'
