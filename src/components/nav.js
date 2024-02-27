@@ -184,7 +184,8 @@ const Nav = ({ isHome }) => {
             <StyledLinks>
               <ul>
                 <TransitionGroup component={null}>
-                  <li key="en-link"><a href='https://dariadia-portfolio.vercel.app/' target="_blank">In English</a></li>
+                {isMounted &&
+                    navLinks &&<li key="en-link"><a href='https://dariadia-portfolio.vercel.app/' target="_blank">In English</a></li>}
                   {isMounted &&
                     navLinks &&
                     navLinks.map(({ url, name }, i) => (
