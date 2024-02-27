@@ -201,7 +201,7 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="subheading" ref={revealTitle}>
-        A Few Things I’ve Built
+        Несколько приложений, которые я создала
       </h2>
       <StyledProjectsGrid>
         {featuredProjects &&

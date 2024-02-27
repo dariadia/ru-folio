@@ -48,9 +48,9 @@ const Me = () => {
   const prefersReducedMotion = usePrefersReducedMotion();
 
   const introItems = [
-    <h1 className="heading-caption">Hi, my name is</h1>,
-    <h2 className="heading-main">Daria V. Diachkova.</h2>,
-    <h3 className="subheading-main">I build things for the web.</h3>,
+    <h1 className="heading-caption">Привет, меня зовут</h1>,
+    <h2 className="heading-main">Дьячкова Даша</h2>,
+    <h3 className="subheading-main">Я создаю сайты и приложения для веба.</h3>,
   ]
 
   return (

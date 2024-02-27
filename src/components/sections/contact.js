@@ -56,13 +56,13 @@ const Contact = () => {
 
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
-      <h2 className="subheading overline">What’s Next?</h2>
-      <h2 className="title get-in-touch">Get In Touch</h2>
+      <h2 className="subheading overline">А что дальше?</h2>
+      <h2 className="title get-in-touch">Связаться со мной!</h2>
       <p>
-        Drop a line just to say "hi" – or – inquire about hiring me for a project or as a mentor.
+        Напишите мне, просто чтобы просто познакомиться поближе — или — нанять меня для проекта или в качестве наставника.
       </p>
       <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
+        Написать Даше
       </a>
     </StyledContactSection>
   );
