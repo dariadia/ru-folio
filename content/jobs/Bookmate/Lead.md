@@ -19,7 +19,7 @@ tags:
 
 <br/>
 
-### Some stats
+### Немного статистики
 
 - Raised and mentored: one junior to middle developer, one intern to junior developer. Two junior developers. 
 - Introduced <b>WCAG</b> principles (accessibility for all);

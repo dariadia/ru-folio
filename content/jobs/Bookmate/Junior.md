@@ -15,13 +15,13 @@ tags:
   - Netlify
 ---
 
-- Write modern and maintainable code for <b>internal</b> projects. 
-- Implement designs: <b>from design mockups to web pages using HTML, CSS, and JavaScript</b>. Ensure that the design is accurately translated into code while maintaining <b>responsiveness and cross-browser compatibility</b>.
-- Work with a variety of different languages, platforms, frameworks, and content management systems (<b>JavaScript, TypeScript, React, and Netlify</b>)
-- Manage changes to source code using <b>git</b>
+- Код: писала современный и удобный в поддержании код для <b>внутренних</b> проектов компании.
+– Реализация дизайна: <b>от макетов до веб-страниц, используя HTML, CSS и JavaScript</b>. Проверяла, что дизайн точно переведен в код, и страница корректно отображается на разных устройствах (<b>адаптивность и кроссбраузерная вёрстка</b>).
+- Работала с различными языками, платформами и системами управления контентом (<b>JavaScript, TypeScript, React и Netlify</b>).
+– Сохраняла изменения в исходном коде с помощью <b>git</b>.
 <br/>
 
-### Some stats
+### Немного статистики
 
-- Boosted <a href="https://zurnal.bookmate.com/" target="_blank" style="color:#566eaf">Bookmate Zurnal</a> (website) performance by <b>82%</b> (better UX, faster page load, less API strain);
-- Improved a corporate internal app's <b>UX</b> (CDN uploader) to make it intuitive to use. 
+- Увеличила производительность <a href="https://zurnal.bookmate.com/" target="_blank" style="color:#566eaf">Bookmate Zurnal</a> (веб-сайт) <b>82%</. b> (улучшения UX, более быстрая загрузка страниц, меньшая нагрузка на API);
+– Улучшила <b>UX</b> корпоративного внутреннего приложения (загрузчик CDN), чтобы сделать его интуитивно понятным в использовании для моих коллег.
