@@ -1,7 +1,7 @@
 ---
 date: '2023'
 sortBy: 0
-title: 'Year In Review'
+title: 'Годовой обзор'
 cover: './sample.png'
 github: 'https://github.com/dariadia/year-in-review'
 url: 'https://year-in-review-xi.vercel.app/'

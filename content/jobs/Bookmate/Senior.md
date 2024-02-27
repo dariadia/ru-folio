@@ -11,13 +11,13 @@ tags:
   - React
   - Redux
 ---
-- <b>Collaboration and communication</b>: <i>communicate effectively with team members and stakeholders</i>, seeking clarification when needed and providing updates on progress and challenges. Contribute actively to team discussions and brainstorming sessions on a daily basis.
-- <b>Problem-solving</b>: Demonstrate problem-solving skills by identifying and resolving technical challenges encountered during development. <b>Analyze issues, propose solutions,</b> and implement fixes to ensure the smooth functioning of the application.
+- <b>Работа в команде</b>: <i>эффективно общалась с членами команды и заинтересованными сторонами</i>, получая при необходимости разъяснения и предоставляя обновленную информацию о прогрессе и проблемах. Ежедневно активно участвуйте в командных обсуждениях и мозговых штурмах.
+- <b>Решение проблем</b>: продемонстрируйте навыки решения проблем, выявляя и решая технические проблемы, возникшие в ходе разработки. <b>Анализируйте проблемы, предлагайте решения</b> и вносите исправления, чтобы обеспечить бесперебойную работу приложения.
 
 <br/>
 
-### Some stats
+### Немного статистики
 
-- Upped <a href="https://bookmate.com/" target="_blank" style="color:#566eaf">bookmate.com</a> test coverage from 31% to 56%;
-- Improved <a href="https://bookmate.com/" target="_blank" style="color:#566eaf">bookmate.com</a> loading time from score 27% to score 68%. Lessened API strain, improved SEO;
+- Подняла покрытие сайта <a href="https://bookmate.com/" target="_blank" style="color:#566eaf">bookmate.com</a> тестами от 31% до 56%;
+- Улучшила скорость загрузки страницы <a href="https://bookmate.com/" target="_blank" style="color:#566eaf">bookmate.com</a> от 27% до 68%. Уменьшила нагрузку на API, улучшила показатели SEO;
 - Finished the technical documentation, covered the remaining 40% of the main product (website).
