@@ -157,7 +157,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .heading-main {
-    margin: 0;
+    margin: 0 0 12px 0;
     font-size: clamp(40px, 8vw, 80px);
   }
 
