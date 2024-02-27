@@ -33,8 +33,8 @@ const StyledHeader = styled.header`
   @media (prefers-reduced-motion: no-preference) {
     ${props =>
     props.scrollDirection === 'up' &&
-      !props.scrolledToTop &&
-      css`
+    !props.scrolledToTop &&
+    css`
         height: var(--nav-scroll-height);
         transform: translateY(0px);
         background-color: var(--main);
@@ -43,8 +43,8 @@ const StyledHeader = styled.header`
 
     ${props =>
     props.scrollDirection === 'down' &&
-      !props.scrolledToTop &&
-      css`
+    !props.scrolledToTop &&
+    css`
         height: var(--nav-scroll-height);
         transform: translateY(calc(var(--nav-scroll-height) * -1));
         box-shadow: 0 10px 30px -10px var(--shadow-main);
@@ -159,8 +159,8 @@ const Nav = ({ isHome }) => {
           <>
             {Logo}
             <StyledLinks>
-              <a href='https://dariadia-portfolio.vercel.app/' target="_blank">In English</a>
               <ul>
+                <li key="en-link"><a href='https://dariadia-portfolio.vercel.app/' target="_blank">In English</a></li>
                 {navLinks &&
                   navLinks.map(({ url, name }, i) => (
                     <li key={i}>
