@@ -59,7 +59,7 @@ const Contact = () => {
       <h2 className="subheading overline">А что дальше?</h2>
       <h2 className="title get-in-touch">Связаться со мной!</h2>
       <p>
-        Напишите мне, просто чтобы просто познакомиться поближе — или — нанять меня для проекта или в качестве наставника.
+        Напишите мне, просто чтобы просто познакомиться поближе — или — нанять меня для проекта или <a href="https://frontend-courses.vercel.app/" target="_blank">в качестве наставника</a>.
       </p>
       <a className="email-link" href={`mailto:${email}`}>
         Написать Даше

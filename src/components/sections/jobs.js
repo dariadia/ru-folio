@@ -8,6 +8,9 @@ import isServer from '@constants/server-helper';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledJobsSection = styled.section`
+  > div > ul > li > a {
+    text-decoration: underline;
+  }
   .inner {
     display: flex;
     max-width: 900px;
