@@ -209,9 +209,9 @@ const Posts = () => {
   };
 
   return (<StyledPostsSection id="posts">
-    <h2 className="subheading" ref={revealTitle}>Blog Posts</h2>
+    <h2 className="subheading" ref={revealTitle}>Блог</h2>
     <Link className="inline-link archive-link" to="/posts" ref={revealArchiveLink}>
-      view the archive
+      посмотреть архив постов
     </Link>
     <ul className="posts-grid">
       {prefersReducedMotion ? (

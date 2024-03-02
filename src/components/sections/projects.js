@@ -313,7 +313,7 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Projects</h2>
+      <h2 ref={revealTitle}>Другие проекты</h2>
       <ul className={`projects-showcase${showMore ? ' shown-more' : ''}`}>
         {prefersReducedMotion ? (
           <>
