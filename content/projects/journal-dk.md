@@ -1,7 +1,7 @@
 ---
 date: '2021'
 sortBy: 4
-title: 'Bookmate Journal (литературный журнал) 🇩🇰'
+title: 'Bookmate Journal (лит. журнал) 🇩🇰'
 cover: './images/dk-journal-min.png'
 url: 'https://journal.bookmate.dk/'
 slug: 'https://journal.bookmate.dk/'

@@ -1,7 +1,7 @@
 ---
 date: '2022'
 sortBy: 7
-title: 'Al Margen (литературный блог) 🇲🇽'
+title: 'Al Margen (лит. блог) 🇲🇽'
 cover: './images/almargen.png'
 url: 'https://almargen.bookmate.com/'
 slug: 'https://almargen.bookmate.com/'

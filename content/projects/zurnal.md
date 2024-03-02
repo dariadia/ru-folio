@@ -1,7 +1,7 @@
 ---
 date: '2020'
 sortBy: 3
-title: 'Bookmate Zurnal (литературный журнал) 🇷🇸'
+title: 'Bookmate Zurnal (лит. журнал) 🇷🇸'
 cover: './images/zurnal.png'
 slug: 'https://zurnal.bookmate.com/'
 url: 'https://zurnal.bookmate.com/'
