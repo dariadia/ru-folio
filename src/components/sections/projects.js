@@ -65,13 +65,13 @@ const StyledProjectsSection = styled.section`
       grid-row: 48;
     }
     > li:nth-child(6) {
-      grid-row: 41;
+      grid-row: 40;
     }
     > li:nth-child(7) {
-      grid-row: 67;
+      grid-row: 66;
     }
     > li:nth-child(8) {
-      grid-row: 58;
+      grid-row: 57;
     }
     > li {
       @media (max-width:1200px) and (min-width: 821px) {
@@ -93,7 +93,14 @@ const StyledProjectsSection = styled.section`
     ${({ theme }) => theme.mixins.button};
     margin: 140px auto 0px;
     @media (max-width: 500px) {
-      margin: 12px auto 0;
+      margin: 20px auto 0;
+    }
+  }
+  .less-button {
+    margin: 160px auto 0px;
+    ${({ theme }) => theme.mixins.button};
+    @media (max-width: 500px) {
+      margin: 20px auto 0;
     }
   }
 `;
@@ -338,7 +345,7 @@ const Projects = () => {
           </TransitionGroup>
         )}
       </ul>
-      <button className="more-button" id="proj_more-button" onClick={setShowMode}>
+      <button className={showMore ? "less-button" : "more-button"} id="proj_more-button" onClick={setShowMode}>
         Показать {showMore ? 'меньше' : 'больше'}
       </button>
     </StyledProjectsSection>
