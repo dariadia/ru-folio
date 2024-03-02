@@ -15,7 +15,7 @@ const StyledMeSection = styled.section`
   @media (max-width: 820px) {
     min-height: 50vh;
     height: 50vh;
-    padding-top: 80px;
+    padding-top: 60px;
   }
 
   @media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {

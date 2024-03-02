@@ -158,6 +158,10 @@ const Posts = () => {
   const revealArchiveLink = useRef(null);
   const revealPosts = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();
+  const setShowMode = () => {
+    if (showMore) document.getElementById("2-proj").scrollIntoView(true)
+    setShowMore(!showMore)
+  }
 
   useEffect(() => {
     if (prefersReducedMotion) return;
@@ -218,7 +222,7 @@ const Posts = () => {
         <>
           {postsToShow &&
             postsToShow.map(({ node }, i) => (
-              <StyledPost key={i}>{postInner(node)}</StyledPost>
+              <StyledPost id={`${i}-proj`} key={i}>{postInner(node)}</StyledPost>
             ))}
         </>
       ) : (
@@ -243,10 +247,9 @@ const Posts = () => {
         </TransitionGroup>
       )}
     </ul>
-
-    <button className="more-button" onClick={() => setShowMore(!showMore)}>
-      Показать {showMore ? 'меньше' : 'больше'}
-    </button>
+    <button className={showMore ? "less-button" : "more-button"} id="proj_more-button" onClick={setShowMode}>
+        Показать {showMore ? 'меньше' : 'больше'}
+      </button>
   </StyledPostsSection>
   );
 };
