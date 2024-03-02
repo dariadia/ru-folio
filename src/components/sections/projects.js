@@ -55,23 +55,23 @@ const StyledProjectsSection = styled.section`
       grid-row: 1;
     }
     > li:nth-child(3) {
-      grid-row: 23;
+      grid-row: 25;
       margin-top: -8px;
     }
     > li:nth-child(4) {
-      grid-row: 17;
+      grid-row: 18;
     }
     > li:nth-child(5) {
-      grid-row: 45;
+      grid-row: 48;
     }
     > li:nth-child(6) {
-      grid-row: 38;
+      grid-row: 41;
     }
     > li:nth-child(7) {
-      grid-row: 62;
+      grid-row: 67;
     }
     > li:nth-child(8) {
-      grid-row: 54;
+      grid-row: 58;
     }
     > li {
       @media (max-width:1200px) and (min-width: 821px) {
@@ -91,7 +91,7 @@ const StyledProjectsSection = styled.section`
 
   .more-button {
     ${({ theme }) => theme.mixins.button};
-    margin: 48px auto 0;
+    margin: 140px auto 0px;
     @media (max-width: 500px) {
       margin: 12px auto 0;
     }
