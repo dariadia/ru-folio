@@ -248,7 +248,7 @@ const Menu = () => {
               </ul>
             )}
             <a href="/Daria_Diachkova_-_Senior_Frontend_Engineer.pdf" className="resume-link">
-              Resume
+              Резюме
             </a>
           </nav>
         </StyledSidebar>
