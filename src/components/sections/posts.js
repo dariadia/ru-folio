@@ -245,7 +245,7 @@ const Posts = () => {
     </ul>
 
     <button className="more-button" onClick={() => setShowMore(!showMore)}>
-      Show {showMore ? 'Less' : 'More'}
+      Показать {showMore ? 'меньше' : 'больше'}
     </button>
   </StyledPostsSection>
   );

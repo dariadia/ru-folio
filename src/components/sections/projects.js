@@ -339,7 +339,7 @@ const Projects = () => {
         )}
       </ul>
       <button className="more-button" id="proj_more-button" onClick={setShowMode}>
-        Show {showMore ? 'Less' : 'More'}
+        Показать {showMore ? 'меньше' : 'больше'}
       </button>
     </StyledProjectsSection>
   );
