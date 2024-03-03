@@ -51,7 +51,8 @@ const StyledPostsSection = styled.section`
     }
   }
   .less-button {
-    margin: 160px auto 0px;
+    display: block;
+    margin: 40px auto 0px;
     ${({ theme }) => theme.mixins.button};
     @media (max-width: 500px) {
       margin: 20px auto 0;
