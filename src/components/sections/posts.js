@@ -167,7 +167,7 @@ const Posts = () => {
   const revealPosts = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();
   const setShowMode = () => {
-    if (showMore) document.getElementById("2-post").scrollIntoView(true)
+    if (showMore) document.getElementById("2-post")?.scrollIntoView(true)
     setShowMore(!showMore)
   }
 
@@ -230,7 +230,7 @@ const Posts = () => {
         <>
           {postsToShow &&
             postsToShow.map(({ node }, i) => (
-              <StyledPost id={`${i}-post`} key={i}>{postInner(node)}</StyledPost>
+              <StyledPost key={i}>{postInner(node)}</StyledPost>
             ))}
         </>
       ) : (
@@ -244,6 +244,7 @@ const Posts = () => {
                 exit={false}>
                 <StyledPost
                   key={i}
+                  id={`${i}-post`}
                   ref={el => (revealPosts.current[i] = el)}
                   style={{
                     transitionDelay: `${i >= GRID_LIMIT ? (i - GRID_LIMIT) * 100 : 0}ms`,
