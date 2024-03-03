@@ -166,7 +166,7 @@ const Posts = () => {
   const revealPosts = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();
   const setShowMode = () => {
-    if (showMore) document.getElementById("2-proj").scrollIntoView(true)
+    if (showMore) document.getElementById("2-post").scrollIntoView(true)
     setShowMore(!showMore)
   }
 
@@ -229,7 +229,7 @@ const Posts = () => {
         <>
           {postsToShow &&
             postsToShow.map(({ node }, i) => (
-              <StyledPost id={`${i}-proj`} key={i}>{postInner(node)}</StyledPost>
+              <StyledPost id={`${i}-post`} key={i}>{postInner(node)}</StyledPost>
             ))}
         </>
       ) : (
