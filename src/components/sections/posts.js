@@ -50,6 +50,13 @@ const StyledPostsSection = styled.section`
       margin: 12px auto 0;
     }
   }
+  .less-button {
+    margin: 160px auto 0px;
+    ${({ theme }) => theme.mixins.button};
+    @media (max-width: 500px) {
+      margin: 20px auto 0;
+    }
+  }
 `;
 
 const StyledPost = styled.li`
