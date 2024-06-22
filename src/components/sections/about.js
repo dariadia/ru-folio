@@ -77,7 +77,7 @@ const StyledLangSection = styled.section`
       }
     }
   }
-`
+`;
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
@@ -138,24 +138,37 @@ const About = () => {
     isServer.reveal(revealContainer.current, srConfig());
   }, [prefersReducedMotion]);
 
-  const skills = ['JavaScript (ES6+)', 'CSS (CSS5, SCSS)', 'React', 'TypeScript', 'Node.js', 'Hugo'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'CSS (CSS5, SCSS)',
+    'React',
+    'TypeScript',
+    'Node.js',
+    'Hugo',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="subheading">Обо мне</h2>
       <div className="inner">
         <div>
+          <p>Привет! Меня зовут Даша.</p>
           <p>
-            Привет! Меня зовут Даша.
+            Я специализируюсь на
+            <b>
+              <span className="accent"> UX и инклюзивности</span>
+            </b>{' '}
+            веб-приложений и сайтов. Старший фронтенд разработчик и руководитель небольшой фронтенд
+            команды (менее 6 человек) с более чем 5-летним опытом работы в{' '}
+            <b>React, Node.js и TypeScript.</b>
           </p>
           <p>
-            Я специализируюсь на<b><span className='accent'> UX и инклюзивности</span></b> веб-приложений и сайтов. Старший фронтенд разработчик и руководитель небольшой фронтенд команды (менее 6 человек) с более чем 5-летним опытом работы в <b>React, Node.js и TypeScript.</b>
+            Мои коммуникативные навыки позволяют мне эффективно работать с командами разработчиков и
+            дизайнеров, а также брать на себя обязанности наставничества.
           </p>
           <p>
-          Мои коммуникативные навыки позволяют мне эффективно работать с командами разработчиков и дизайнеров, а также брать на себя обязанности наставничества.
-          </p>
-          <p>
-            Я из тех, кто учится всю жизнь. Люблю узнавать новое и осваивать навыки. В свободное время я охотно читаю, пишу романы, вяжу и рисую.
+            Я из тех, кто учится всю жизнь. Люблю узнавать новое и осваивать навыки. В свободное
+            время я охотно читаю, пишу романы, вяжу и рисую.
           </p>
           <br />
         </div>
@@ -163,7 +176,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../assets/images/daria.jpeg"
+              src="../../assets/images/daria.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
@@ -177,20 +190,24 @@ const About = () => {
           {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
         </ul>
         <ul className="languages-list">
-          <li><b>Родные</b>:
-          {' '}<StaticImage
+          <li>
+            <b>Родные</b>:{' '}
+            <StaticImage
               className="img flag-icon"
               src="../../assets/icons/gb.svg"
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
-              alt="English flag" /> /{' '}
+              alt="English flag"
+            />{' '}
+            /{' '}
             <StaticImage
               className="img flag-icon"
               src="../../assets/icons/de.svg"
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="German flag"
-            /> /{' '}
+            />{' '}
+            /{' '}
             <StaticImage
               className="img flag-icon"
               src="../../assets/icons/ru.svg"
@@ -199,14 +216,16 @@ const About = () => {
               alt="Russian flag"
             />
           </li>
-          <li><b>Бегло разговариваю на</b>:
-          {' '}<StaticImage
+          <li>
+            <b>Бегло разговариваю на</b>:{' '}
+            <StaticImage
               className="img flag-icon"
               src="../../assets/icons/rs.svg"
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Serbian flag"
-            /> /{' '}
+            />{' '}
+            /{' '}
             <StaticImage
               className="img flag-icon"
               src="../../assets/icons/hr.svg"
@@ -215,8 +234,9 @@ const About = () => {
               alt="Croatian flag"
             />
           </li>
-          <li><b>Сейчас я учу</b>:
-          {' '}<StaticImage
+          <li>
+            <b>Сейчас я учу</b>:{' '}
+            <StaticImage
               className="img flag-icon"
               src="../../assets/icons/fr.svg"
               quality={95}
