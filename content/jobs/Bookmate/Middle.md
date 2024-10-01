@@ -2,7 +2,7 @@
 date: '2021-01-02'
 title: 'Фронтенд разработчик'
 company: 'Букмейт'
-location: 'Москва'
+location: 'удаленно: Москва, РФ'
 range: 'февраль 2021 - январь 2022'
 year: 2021
 slug: middle-dev

@@ -1,10 +1,10 @@
 ---
 date: '2022-08-01'
-title: 'Тимлид & фронтенд разработчик'
+title: 'Тимлид и старший фронтенд разработчик'
 company: 'Bookmate'
-location: 'Белград, Сербия'
+location: 'удаленно: Дублин, Ирландия'
 range: 'август 2022 - январь 2024'
-year: 2023
+year: 2022
 slug: lead-dev
 url: 'https://www.bookmate.com/'
 tags:
