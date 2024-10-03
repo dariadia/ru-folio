@@ -105,6 +105,9 @@ const GlobalStyle = createGlobalStyle`
   .accent {
     color: var(--accent);
   }
+  .joke-accent {
+    text-decoration: line-through; 
+  }
 
   main {
     margin: 0 auto;
